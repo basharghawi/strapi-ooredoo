@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_tags_tags",
+  "info": {
+    "displayName": "tags",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "primary-tag",
+        "secondary-tag"
+      ],
+      "required": true,
+      "default": "primary-tag"
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

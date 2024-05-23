@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_popup_popups",
+  "info": {
+    "displayName": "popup"
+  },
+  "options": {},
+  "attributes": {
+    "hasPopup": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

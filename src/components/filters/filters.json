@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_filters_filters",
+  "info": {
+    "displayName": "filters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "oneTime": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "recurring": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "local_data": {
+      "type": "integer",
+      "required": true
+    },
+    "local_minutes": {
+      "type": "integer",
+      "required": true
+    },
+    "international_minutes": {
+      "type": "integer",
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "All",
+        "Hala Super",
+        "Flexi",
+        "Hala Credit",
+        "Data",
+        "Roaming",
+        "Endless Data",
+        "Hala Smart",
+        "International Minutes"
+      ],
+      "required": true,
+      "default": "All"
+    }
+  }
+}

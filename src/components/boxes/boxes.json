@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_boxes_boxes",
+  "info": {
+    "displayName": "boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "main": {
+      "type": "integer",
+      "required": true
+    },
+    "unit": {
+      "type": "string"
+    },
+    "bonus": {
+      "type": "string"
+    },
+    "validity": {
+      "type": "integer"
+    }
+  }
+}
